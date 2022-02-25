@@ -1,0 +1,39 @@
+.warehouse-container {
+  display: block;
+  width: 100%;
+}
+
+.warehouse-container h2 {
+  padding: 50px;
+}
+
+.city-cards {
+  display: inline-grid;
+  width: 20%;
+  margin-left: 10%;
+  border: 2px solid rgb(48, 29, 133);
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(48, 29, 133);
+}
+
+.city-cards img {
+  border-radius: 5px;
+  width: 100%;
+  height: 160px;
+}
+
+.city-cards h3 {
+  letter-spacing: 1px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.features {
+  font-size: 5px;
+  line-height: 14px;
+}
+
+.icons {
+  padding-right: 3px;
+  padding-bottom: 4px;
+}

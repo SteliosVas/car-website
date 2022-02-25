@@ -1,0 +1,48 @@
+.signup-container {
+  position: fixed;
+  top: 200px;
+  left: 30%;
+  width: 40%;
+  z-index: 1;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.signup-form {
+  text-align: center;
+  background-color: rgb(160, 142, 142);
+}
+
+.input-user {
+  display: inline-block;
+  margin: 20px;
+  padding: 2px;
+}
+
+.input-pin {
+  display: inline-block;
+  margin: 20px;
+  padding: 2px;
+  margin-left: 24px;
+}
+
+label {
+  font-weight: bold;
+  padding: 2px;
+}
+
+input {
+  border-radius: 5px;
+  border: solid rgb(40, 87, 240) 1px;
+  box-shadow: 2px 2px;
+}
+
+input:focus,
+input:active {
+  background-color: lightblue;
+  border: solid rgb(51, 148, 238) 1px;
+}
